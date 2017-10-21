@@ -5,10 +5,9 @@ def my_collect(array)
   while counter < array.length
     if array == students do |student|
       collection << student.split(" ").first
-    end
-  end
-  elsif array == languages do |language|
+    elsif array == languages do |language|
     collection << language.upcase
-  end
+    end
   collection
+end
 end
