@@ -10,3 +10,6 @@ def my_collect(students)
   new_collection = []
   students.collect do |student|
     student.split(" ").first
+  end
+  new_collection
+end
