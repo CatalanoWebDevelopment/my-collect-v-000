@@ -1,6 +1,7 @@
 def my_collect(languages)
   collection = []
   languages.collect do |language|
-    language.upcase
+    collection << language.upcase
   end
+  collection
 end
