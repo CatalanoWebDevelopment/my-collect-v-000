@@ -6,6 +6,7 @@ def my_collect(array)
     if array == students do |student|
       collection << student.split(" ").first
     end
+  end
   elsif array == languages do |language|
     collection << language.upcase
   end
