@@ -1,13 +1,9 @@
-
 def my_collect(array)
-  counter = 0
+  i = 0
   collection = []
-  while counter < array.length
-      if array == students do |student|
-        collection << student.split(" ").first
-      elsif array == languages do |language|
-      collection << language.upcase
-      end
-    end
+  while i < array.length
+    collection << yield(array[i])
+    i += 1
+  end
   collection
 end
