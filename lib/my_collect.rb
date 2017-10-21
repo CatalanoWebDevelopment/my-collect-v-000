@@ -5,3 +5,8 @@ def my_collect(languages)
   end
   collection
 end
+
+def my_collect(students)
+  new_collection = []
+  students.collect do |student|
+    student.split(" ").first
